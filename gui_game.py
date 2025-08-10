@@ -69,7 +69,7 @@ for i in range(9):
     btn.grid(row=i//3, column=i%3)
     buttons.append(btn)
 
-reset_button = tk.Button(root, text="Restart", command=reset_game)
+reset_button = tk.Button(root, text="Redo", command=reset_game)
 reset_button.pack(pady=10)
 
 reset_game()
